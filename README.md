@@ -5,3 +5,6 @@
 ## Subject
 - [Subject EN](./subject_en.md)
 - [Subject RUS](./subject_rus.md)
+
+The grep project is located in another repository.
+
