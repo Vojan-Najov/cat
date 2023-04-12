@@ -1,22 +1,25 @@
 NAME = s21_cat
 
-INCLUDES = s21_cat.h
+INCLUDES = include/s21_cat.h
 
-SRC = s21_cat.c s21_cat_utils.c
+SRC = src/s21_cat.c src/s21_cat_utils.c
 
 OBJ = $(SRC:.c=.o)
 
 CC = gcc
 
-CFLAGS = -Wall -Wextra -Werror -std=c11 -Wpedantic
+CFLAGS = -Wall -Wextra -Werror -std=c11 -Wpedantic -Iinclude/
+
+all: $(NAME)
 
 $(NAME): $(OBJ)
 	$(CC) $^ -o $@
 
+test: $(NAME)
+	sh ./tests/start_test.sh -i
+
 %.o: %.c $(SRC) $(INCLUDES)
 	$(CC) $(CFLAGS) -c $< -o $@
-
-all: $(NAME)
 
 clean:
 	rm -f $(OBJ)
