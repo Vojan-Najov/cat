@@ -18,7 +18,7 @@
 
 ## Preamble
 
-![simple_bash_utils](misc/rus/images/bashutils.png)
+![simple_bash_utils](../misc/rus/images/bashutils.png)
 
 То был обычный серый осенний день 1993 года. Вы пришли домой со своей работы в Hewlett-Packard, 
 немного уставший. У вас была небольшая двухкомнатная квартира на окраинах города N, 

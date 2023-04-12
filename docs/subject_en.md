@@ -20,7 +20,7 @@ The russian version of the task can be found in the repository.
 
 ## Preamble
 
-![simple_bash_utils](misc/eng/images/bashutils.png)
+![simple_bash_utils](../misc/eng/images/bashutils.png)
 
 It was an ordinary grey autumn day in 1993. You came home from work at Hewlett-Packard, feeling a little tired. You had a small two-room apartment on the outskirts of N town. There was a low-alcohol drink in the refrigerator called "pivo". You took that drink and a bag of crackers then went to your little nook, to your computer made by Dell.
 

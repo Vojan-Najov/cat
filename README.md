@@ -3,8 +3,8 @@
 - The other primary purpose of cat, aside from concatenation, is file printing — allowing the computer user to view the contents of a file. Printing is the most common use of cat.
 
 ## Subject
-- [Subject EN](./subject_en.md)
-- [Subject RUS](./subject_rus.md)
+- [Subject EN](./docs/subject_en.md)
+- [Subject RUS](./docs/subject_rus.md)
 
 The grep project is located in another repository.
 
