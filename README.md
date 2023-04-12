@@ -23,6 +23,6 @@ The grep project is located in another repository.
 
 - `make test`
 
-- Еhe program is designed according to the behavior of the gnu coreutils program. Therefore, tests in comparison with other implementations may be with errors. To do this, the tests have scripts for testing via docker. For this `$>sh ./tests/run.sh`
+- The program is designed according to the behavior of the gnu coreutils program. Therefore, tests in comparison with other implementations may be with errors. To do this, the tests have scripts for testing via docker. For this `$>sh ./tests/run.sh`
 
 
