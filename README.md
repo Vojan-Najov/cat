@@ -17,5 +17,5 @@ The grep project is located in another repository.
   <img src="./misc/cat_example_2.png" alt="example_2" width="700"/>
 
 - A help message \
-  <img src="./misc/cat_example_2.png" alt="example_3" width="700"/>
+  <img src="./misc/cat_example_3.png" alt="example_3" width="700"/>
 
