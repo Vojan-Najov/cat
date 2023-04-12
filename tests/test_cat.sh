@@ -30,7 +30,7 @@ do
 			;;
 		g)
 			check_gnu=1
-			cat --number <<<123 >/dev/null
+			cat --number <<<123 >/dev/null 2>/dev/null
 			[ $? -eq 0 ] || {
 				echo 'gnu cat not found'
 				exit 1
