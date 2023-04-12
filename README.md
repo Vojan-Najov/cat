@@ -13,6 +13,9 @@ The grep project is located in another repository.
 - `$>./s21_cat [-bestv]  filenames...` \
   <img src="./misc/cat_example_1.png" alt="example_1" width="700"/>
 
-- A program without arguments or with the "-" argument works with standard input.
+- A program without arguments or with the "-" argument works with standard input. \
+  <img src="./misc/cat_example_2.png" alt="example_2" width="700"/>
 
+- A help message \
+  <img src="./misc/cat_example_2.png" alt="example_3" width="700"/>
 
