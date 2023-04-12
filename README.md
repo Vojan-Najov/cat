@@ -8,3 +8,11 @@
 
 The grep project is located in another repository.
 
+## Usage
+
+- `$>./s21_cat [-bestv]  filenames...` \
+  <img src="./misc/cat_example_1.png" alt="example_1" width="700"/>
+
+- A program without arguments or with the "-" argument works with standard input.
+
+
