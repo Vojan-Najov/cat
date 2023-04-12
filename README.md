@@ -19,3 +19,10 @@ The grep project is located in another repository.
 - A help message \
   <img src="./misc/cat_example_3.png" alt="example_3" width="700"/>
 
+## Tests
+
+- `make test`
+
+- Еhe program is designed according to the behavior of the gnu coreutils program. Therefore, tests in comparison with other implementations may be with errors. To do this, the tests have scripts for testing via docker. For this `$>sh ./tests/run.sh`
+
+
