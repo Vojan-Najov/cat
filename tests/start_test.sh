@@ -14,7 +14,7 @@ do
 done
 
 if [ $INTERACTIVE -eq 1 ]; then
-	echo; echo "\033[32mSTART CAT TESTS\033[0m (yes/no)?"
+	echo; echo -e "\033[32mSTART CAT TESTS\033[0m (yes/no)?"
 	tmpans=''
 	read 'tmpans'
 	if [[ "$tmpans" == "y" || "$tmpans" == "yes" ]]
@@ -30,7 +30,7 @@ else
 fi
 
 if [ $INTERACTIVE -eq 1 ]; then
-	echo; echo "\033[32mSTART CAT MEMORY TESTS\033[0m (yes/no)?"
+	echo; echo -e "\033[32mSTART CAT MEMORY TESTS\033[0m (yes/no)?"
 	tmpans=''
 	read 'tmpans'
 	if [[ "$tmpans" == "y" || "$tmpans" == "yes" ]]

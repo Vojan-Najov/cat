@@ -163,9 +163,9 @@ testing()
 	fi
 	if [ "$s21exitstatus" == "$catexitstatus" ]
 	then
-		echo -e "\033[32mExit status s21_grep and grep are equal\033[0m"
+		echo -e "\033[32mExit status s21_cat and cat are equal\033[0m"
 	else
-		echo -e "\033[31mExit status s21_grep and grep are not equal\033[0m"
+		echo -e "\033[31mExit status s21_cat and cat are not equal\033[0m"
 	fi
 
 	if [ -n "$check_mem" ]
@@ -379,6 +379,7 @@ rm -f cat.log
 rm -f s21err.log
 rm -f caterr.log
 rm -f leaks.log
+rm s21_cat
 
 echo -e "\033[31mFAIL: $FAIL\033[0m"
 echo -e "\033[32mSUCCESS: $SUCCESS\033[0m"

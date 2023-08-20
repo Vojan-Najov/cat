@@ -16,7 +16,7 @@ $(NAME): $(OBJ)
 	$(CC) $^ -o $@
 
 test: $(NAME)
-	sh ./tests/start_test.sh -i
+	bash ./tests/start_test.sh -i
 
 %.o: %.c $(SRC) $(INCLUDES)
 	$(CC) $(CFLAGS) -c $< -o $@
