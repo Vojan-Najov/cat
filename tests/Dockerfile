@@ -16,8 +16,6 @@ RUN apk --no-cache --upgrade add \
 	coreutils \
 	grep
 
-#RUN mkdir /test 
-
 COPY . /project
 
 WORKDIR "/project/"
